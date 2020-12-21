@@ -324,7 +324,7 @@ int main()
 	sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "MS");
 
 	sf::Image numbers;
-	numbers.loadFromFile("numbers2.png");
+	numbers.loadFromFile("res/numbers2.png");
 	sf::Texture numberSheet;
 	numberSheet.loadFromImage(numbers);
 	std::vector<sf::Sprite> numberVector;
